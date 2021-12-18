@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * 测试延迟运行方法-多核心线程
+ * 测试延迟运行方法Callable-多核心线程
  *
  */
-public class TestDelaySchedule2 {
+public class TestDelayScheduleCallableMultiThread {
 
     public static void main(String[] args) throws Exception{
         List<Callable<String>> taskList = new ArrayList<>();
