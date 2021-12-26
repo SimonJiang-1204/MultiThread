@@ -1,4 +1,4 @@
-package com.jgw.learn.multiThread.scheduledExecutorService;
+package com.jgw.learn.multiThread.coreLiabary.scheduledExecutorService;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

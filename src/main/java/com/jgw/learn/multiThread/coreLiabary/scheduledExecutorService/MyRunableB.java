@@ -1,4 +1,4 @@
-package com.jgw.learn.multiThread.scheduledExecutorService;
+package com.jgw.learn.multiThread.coreLiabary.scheduledExecutorService;
 
 public class MyRunableB implements Runnable {
 

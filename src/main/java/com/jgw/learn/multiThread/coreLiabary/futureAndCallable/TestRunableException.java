@@ -1,4 +1,4 @@
-package com.jgw.learn.multiThread.futureAndCallable;
+package com.jgw.learn.multiThread.coreLiabary.futureAndCallable;
 
 import java.util.concurrent.*;
 
@@ -59,5 +59,11 @@ class MyCallable implements Callable<String> {
         Integer.parseInt("a");
         System.out.println("run MyCallable!");
         return "a";
+    }
+}
+
+class TestThreadException {
+    public static void main(String[] args) {
+        System.out.println("");
     }
 }
